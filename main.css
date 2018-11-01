@@ -1,0 +1,26 @@
+main{
+	text-align: center;
+}
+
+input{
+	margin: 0 0 0 0;
+}
+
+p{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+button{
+	margin-top: 20px;
+	margin-bottom: 0px;
+	width: 60%;
+}
+
+.loading img{
+	width: 50%;
+	height: 50%;
+	max-width: 360px;
+	max-height: 270px;
+	margin-top: 0px;
+}
