@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaijaan');
+
 main{
 	text-align: center;
 }
@@ -17,6 +19,12 @@ button{
 	width: 60%;
 }
 
+#tempSection{
+	font-family: 'Baloo Bhaijaan', cursive;
+	margin-top: 70px;
+	font-size: 5em;
+}
+
 .loading img{
 	width: 50%;
 	height: 50%;
@@ -24,3 +32,11 @@ button{
 	max-height: 270px;
 	margin-top: 0px;
 }
+
+footer{
+	bottom: 0;
+	position: fixed;
+	left: 50%;
+	margin-left: -100px;
+}
+
