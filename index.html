@@ -11,17 +11,23 @@
 			<h3>The Weather App</h3>
 			<section>
 				<form>
-					<input class="u-full-width" type="text" name="city" placeholder="City" autocomplete="off">
-					<p>Or</p>
-					<input class="u-full-width" type="text" name="pin" placeholder="ZIP Code" autocomplete="off">
+					<div class="error"></div>
+					<input class="u-full-width" type="text" name="city" placeholder="Enter City Name" autocomplete="off">
 					<button class="button-primary">Get Weather Report</button>
 				</form>
-				<div class="loading">
-					<img src="weather.gif" alt="loading">
+				<div id="tempSection">
+					
 				</div>
+				<div class="loading">
+					<img src="weather.gif" alt="loading">	
+				</div>
+
 			</section>
 		</main>
 	</div>
+	<footer>Powered By: <br>
+		<img src="Accu.png">
+	</footer>
 	<script type="text/javascript" src="main.js"></script>
 </body>
 </html>
